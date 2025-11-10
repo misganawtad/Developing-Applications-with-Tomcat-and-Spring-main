@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "web.controller")  // ✅ only controllers in MVC context
+@ComponentScan(basePackages = "web.controller")  
 public class WebConfig implements WebMvcConfigurer {
 
     private final ApplicationContext ctx;
